@@ -1,0 +1,50 @@
+.time {
+    font-size: 3em;
+    font-weight: 200;
+    padding: 10px;
+}
+
+#clock {
+    width: 100%;
+}
+
+.hour, .minute {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+    
+}
+
+.second {
+    background-color: gray;
+    color: black;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.list-group-item {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+
+.btn-outline-dark:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn {
+    margin: 2px;
+    font-size: 20px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
